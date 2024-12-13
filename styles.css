@@ -1,0 +1,35 @@
+body {
+    background: radial-gradient(ellipse at center, wheat 5%, skyblue);
+    height: 100svh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+#game {
+    background-color: rgba(255, 255, 255, 0.515);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    background-color: rgba(255, 255, 255, 0.815);
+}
+.slot {
+    border: 1px red solid;
+    border-radius: 3px;
+    margin: 1%;
+    width: 100%;
+    height: 50px;
+}
+
+@media (max-width: 700px) and (min-width: 301px) {
+    #game {
+        width: 50%;
+    }
+}
